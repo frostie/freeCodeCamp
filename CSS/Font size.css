@@ -1,7 +1,7 @@
  /* This changes the font size of all <p> elements in the markup */
  
+<style>
   p {
     font-size: 16px;
   }
-
 </style>
