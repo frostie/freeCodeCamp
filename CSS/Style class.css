@@ -1,0 +1,12 @@
+/* List CSS styles at top of markup */
+
+<style>
+  .blue-text 
+  {
+    color: blue;
+  }
+</style>
+
+/* h2 uses the "blue-text" class to style the text */
+
+<h2 class="blue-text">Header Text</h2>
