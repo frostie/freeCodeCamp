@@ -1,0 +1,13 @@
+<!-- Paste link of custom font at top of markup, before the <style> heading: -->
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<!-- Now use the font for an element -->
+
+<style>
+  
+  p {
+    font-family: Lobster;
+  }
+
+</style>
