@@ -3,3 +3,9 @@
 h2 {
   font-family: sans-serif;
 }
+
+<!-- Add a second font to degrade to if the browser cannot load the first font -->
+
+p {
+  font-family: Helvetica, sans-serif;
+}
