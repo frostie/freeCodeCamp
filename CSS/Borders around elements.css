@@ -13,3 +13,7 @@
 <!-- To add round edges to the border, add the "border-radius" attribute to the ".thick-green-border" class -->
   
   border-radius: 10px;
+
+<!-- To add a full circle border around element, use 50% border-radius -->
+
+border-radius: 50%;
