@@ -1,0 +1,7 @@
+<!-- To reference a class, put a . in front of its name. To reference an id, put a # in front of its name. -->
+
+<style>
+  #cat-photo-element {
+    background-color: green;
+  }
+</style>
