@@ -1,0 +1,12 @@
+/* Absolute = physical units like inches (in) or mm (millimeters). 
+   Relative = other length values like font size (em). */
+   
+<style>
+
+  .red-box {
+    background-color: red;
+    margin: 20px 40px 20px 40px;
+    padding: 1.5em;
+    }
+
+</style>
