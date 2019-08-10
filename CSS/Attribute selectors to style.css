@@ -1,0 +1,9 @@
+/* Selects all elements with "checkbox" type and configures margins */
+
+<style>
+  
+  [type='checkbox'] {
+  margin: 10px 0px 15px 0px;
+  }  
+  
+</style>
