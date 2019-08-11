@@ -1,6 +1,7 @@
 /* The ID element in the style tag gets precedence over the classes of blue- and pink-text. 
 If we remove the ID orange-text from style, then pink-text class will get precedence over
-blue-text simply because it is listed below blue-text. */
+blue-text simply because it is listed below blue-text. Likewise, inline style overrides 
+class declarations */
 
 <style>
   body {
@@ -18,4 +19,4 @@ blue-text simply because it is listed below blue-text. */
     color: orange;
   }
 </style>
-<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
+<h1 style="white;" class="pink-text blue-text" id="orange-text">Hello World!</h1>
