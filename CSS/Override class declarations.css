@@ -7,9 +7,9 @@ The hierarchy is like this, with the bottom being most powerful:
 
 - Class declaration
 - Subsequent class declaration
-- ID
-- Inline
-- Import */
+- ID declaration
+- Inline declaration
+- Import declaration */
 
 <style>
   body {
