@@ -1,0 +1,21 @@
+/* The ID element in the style tag gets precedence over the classes of blue- and pink-text. 
+If we remove the ID orange-text from style, then pink-text class will get precedence over
+blue-text simply because it is listed below blue-text. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text {
+    color: orange;
+  }
+</style>
+<h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
