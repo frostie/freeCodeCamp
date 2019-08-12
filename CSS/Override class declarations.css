@@ -1,7 +1,7 @@
 /* The ID element in the style tag gets precedence over the classes of blue- and pink-text. 
 If we remove the ID orange-text from style, then pink-text class will get precedence over
 blue-text simply because it is listed below blue-text. Likewise, inline style overrides 
-class declarations.
+class declarations, and !Important keyword overrides everything, including CSS from other libraries.
 
 The hierarchy is like this, with the bottom being most powerful:
 
@@ -9,7 +9,8 @@ The hierarchy is like this, with the bottom being most powerful:
 - Subsequent class declaration
 - ID declaration
 - Inline declaration
-- Import declaration */
+- Import declaration 
+- !Important declaration */
 
 <style>
   body {
