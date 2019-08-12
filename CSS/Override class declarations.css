@@ -19,7 +19,7 @@ The hierarchy is like this, with the bottom being most powerful:
     color: green;
   }
   .pink-text {
-    color: pink;
+    color: pink !important;
   }
   .blue-text {
     color: blue;
