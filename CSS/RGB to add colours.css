@@ -1,0 +1,7 @@
+/* with RGB you specify the brightness of each color with a number between 0 and 255. */
+
+<style>
+  body {
+    background-color: rgb(255, 165, 0);
+  }
+</style>
