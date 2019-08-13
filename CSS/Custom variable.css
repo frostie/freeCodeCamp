@@ -1,0 +1,11 @@
+/* Use the variable anywhere in the CSS to change the value of other elements to gray. */
+
+  .penguin {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    --penguin-skin: gray; /* this is the variable */
+  }
