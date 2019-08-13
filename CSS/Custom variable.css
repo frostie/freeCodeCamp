@@ -20,6 +20,7 @@
   }
 </style>
 
-/* We can add a fallback value to a variable for debugging purposes or for browser compatibility. The following example shows "black" used as a fallback:
+/* We can add a fallback value to a variable for debugging purposes or for browser compatibility. 
+The following example shows "black" used as a fallback:
 
 background: var(--penguin-skin, black); */
