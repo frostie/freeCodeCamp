@@ -1,0 +1,16 @@
+<style>
+
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+
+h4 {
+    text-align: center;
+    height: 25px; 
+  }
+
+</style>
