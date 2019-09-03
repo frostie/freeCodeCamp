@@ -3,6 +3,8 @@
     font-size: 20px;
   }
   
+/* Media query says if max height >= 800px, then change p font size to 10px; */
+
   @media (max-height: 800px) {
     p {
       font-size: 10px;
